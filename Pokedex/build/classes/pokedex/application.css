@@ -1,0 +1,80 @@
+.root{
+    -fx-background-color:white;
+}
+
+.label{
+    -fx-font-size: 12;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill:#a0ff43;
+}
+
+.text-field{
+    -fx-background-color:#3d3d3d;
+    -fx-font-size: 12;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill:#a0ff43;
+}
+
+.list-view{
+    -fx-background-color:black;
+}
+
+.list-cell:even{
+    -fx-background-color:#4c4c4c;
+    -fx-text-fill:#a0ff43;
+    -fx-font-family: "Lucida Console";
+}
+
+.list-cell:odd{
+    -fx-background-color:#3d3d3d;
+    -fx-text-fill:#a0ff43;
+    -fx-font-family: "Lucida Console";
+}
+
+.list-cell:selected{
+    -fx-background-color:#142952;
+    -fx-text-fill:#ffffff;
+    -fx-font-family: "Lucida Console";
+}
+
+.button {
+    -fx-padding: 6 10 10 10;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #138ea3 0%, #12908f 100%),
+        #249d96,
+        #3ac3d8,
+        radial-gradient(center 50% 50%, radius 100%, #3ac1d8, #2ca7c5);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1em;
+}
+
+.button:hover{
+    -fx-padding: 6 10 10 10;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #009900 0%, #006600 100%),
+        #009933,
+        #00ff55,
+        radial-gradient(center 50% 50%, radius 100%, #85e085, #47d147);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1em;
+}
+
+.text-area .content {
+    -fx-background-color:#3d3d3d;
+}
+
+.text-area {
+    -fx-font-size: 12;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill:#a0ff43;
+}
+
+.grid-pane{
+    -fx-region-background:white;
+}
