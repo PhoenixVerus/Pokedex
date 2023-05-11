@@ -5,6 +5,7 @@ fulfill a childhood dream of having a Pokedex. Several liberties were taken to f
 the requirements for the project.
 
 Project requirements from class:
+
 -- at least one instantiable class with:
   - at least 3 fields (instance variables)
   - at least one constructor
